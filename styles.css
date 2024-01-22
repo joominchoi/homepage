@@ -1,7 +1,35 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* Specify the font weight range */
+  font-style: normal; /* Regular style */
+  font-display: swap; /* Use 'swap' for better performance and user experience */
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* Specify the font weight range */
+  font-style: italic; /* Italic style */
+  font-display: swap; /* Use 'swap' for better performance and user experience */
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: 100 900; /* Specify the font weight range */
+  font-style: normal; /* Italic style */
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', sans-serif;
+  /* Use the font-family in your styles */
 }
 
 img {
