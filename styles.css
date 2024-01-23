@@ -29,7 +29,28 @@
 
 body {
   font-family: 'Playfair Display', sans-serif;
-  /* Use the font-family in your styles */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: rgb(43, 145, 178);
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+main {
+  margin: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(43, 145, 178);
+  color: #fff;
 }
 
 img {
