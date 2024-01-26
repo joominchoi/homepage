@@ -43,22 +43,22 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 40px 80px;
   text-align: center;
   color: #fff;
 }
 
-#background-container {
+/* #background-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 110%;
   height: 100%;
   background-color: rgb(43, 145, 178);
-  transform: rotate(-12deg) translateY(-15vmin) translateX(-20vmin); /* Adjust the rotation and translation as needed */
+  transform: rotate(-12deg) translateY(-15vmin) translateX(-20vmin);
   transform-origin: top left;
   z-index: -1;
-}
+} */
 
 #image-container {
   position: relative;
