@@ -30,6 +30,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: 'Playfair Display', sans-serif;
   margin: 0;
   padding: 0;
@@ -47,7 +49,7 @@ header {
 }
 
 #background-container {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 110%;
